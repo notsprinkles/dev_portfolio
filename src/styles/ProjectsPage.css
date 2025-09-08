@@ -1,0 +1,21 @@
+.projects-page {
+  padding: 2rem 1.5rem;
+}
+
+.projects-page h1 {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  color: var(--accent, #da26da);
+}
+
+.projects-page p {
+  margin-bottom: 1.5rem;
+  opacity: 0.9;
+  font-size: 1.05rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Dev Portfolio — Jea Laraia",
+  "short_name": "DevPortfolio",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#da26da",
+  "icons": [
+    { "src": "/assets/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/assets/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

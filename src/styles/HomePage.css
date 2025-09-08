@@ -1,0 +1,17 @@
+.home-page {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.home-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--accent, #da26da);
+}
+
+.home-page p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  opacity: 0.9;
+}

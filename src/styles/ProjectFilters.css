@@ -1,0 +1,15 @@
+.filters {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.filter-input, .filter-select {
+  background: transparent;
+  border: 1px solid #444;
+  color: inherit;
+  padding: 0.5rem 0.6rem;
+  border-radius: 8px;
+}
+.filter-input::placeholder { color: #aaa; }

@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #333;
+}
+
+.logo {
+  color: var(--accent, #da26da);
+  font-weight: bold;
+  font-size: 1.5rem;
+  white-space: nowrap;
+}
+
+.nav {
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+    position: relative;
+  padding-bottom: 0.15rem;
+}
+
+.nav a:hover {
+  color: var(--accent, #da26da);
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: blur(8px);
+  background: linear-gradient(180deg, rgba(18,18,18,0.9), rgba(18,18,18,0.6));
+  border-bottom: 1px solid #1f1f1f;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+}
+
+
+/* Animated underline */
+.nav a::after {
+  content: "";
+  position: absolute;
+  left: 0; bottom: -2px;
+  height: 2px; width: 0%;
+  background: var(--accent);
+  transition: width .2s ease;
+}
+.nav a:hover::after, .nav a.active::after { width: 100%; }

@@ -44,7 +44,6 @@
 }
 
 
-/* Animated underline */
 .nav a::after {
   content: "";
   position: absolute;

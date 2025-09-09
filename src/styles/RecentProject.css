@@ -1,0 +1,51 @@
+.recent {
+  margin: 2rem auto 0;
+  max-width: 1100px;
+  padding: 0 1rem;
+  text-align: left;
+}
+
+.badge {
+  display: inline-block;
+  border: 1px solid var(--accent, #da26da);
+  color: var(--accent, #da26da);
+  border-radius: 999px;
+  padding: 0.2rem 0.6rem;
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+.recent-title {
+  margin: 0 0 0.75rem;
+  color: var(--accent, #da26da);
+}
+
+.recent-card {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 1rem;
+  border: 1px solid var(--border, #2c2c2c);
+  background: linear-gradient(180deg, var(--card, rgba(255,255,255,0.04)), transparent);
+  border-radius: var(--radius, 12px);
+  padding: 1rem;
+  align-items: center;
+}
+
+.recent-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid #333;
+  object-fit: cover;
+  background: #222;
+}
+
+.recent-content { display: grid; gap: 0.75rem; }
+.recent-blurb { margin: 0; opacity: 0.92; }
+
+.recent-actions { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+
+@media (max-width: 900px) {
+  .recent-card { grid-template-columns: 1fr; }
+}

@@ -28,6 +28,26 @@ export const projects = [
 },
 
 {
+  title: 'Motivational Journal',
+  description:
+    'WriteLight is a full-stack app that helps users learn new vocabulary through daily reflection and action',
+  tech: ['React', 'Vite', 'Web3', 'mongoDB'],
+  image: '/assets/journal.png',  
+  repo: 'https://github.com/freeCodeCamp-2025-Summer-Hackathon/purple-array',
+  demo: '',
+},
+
+{
+  title: 'Blog',
+  description:
+    'https://thelostgarden.vercel.app/',
+  tech: ['React', 'Vite', 'Web3', ''],
+  image: '/assets/blog.png',  
+  repo: 'https://github.com/Plant-blog/Blog',
+  demo: 'https://thelostgarden.vercel.app/',
+},
+
+{
   title: 'Wallet Terminal',
   description:
     'A web-based crypto wallet terminal for generating wallets, exporting keys, and managing addresses securely in the browser.',

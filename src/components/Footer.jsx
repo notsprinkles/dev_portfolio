@@ -1,9 +1,10 @@
 import '../styles/Footer.css';
+import SocialBar from './SocialBar';
 
 function Footer() {
   return (
     <footer style={styles.footer}>
-      <p>&copy; {new Date().getFullYear()} Dev Portfolio. Built with 💻 and 💜.</p>
+      <SocialBar />
     </footer>
   );
 }

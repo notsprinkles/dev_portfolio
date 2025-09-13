@@ -17,7 +17,7 @@ function Hero() {
 
       
 
-      <SocialBar />
+      
     </section>
   );
 }

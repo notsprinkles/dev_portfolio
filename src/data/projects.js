@@ -1,33 +1,5 @@
 export const projects = [
   {
-    title: 'Crypto Price Tracker',
-    description:
-      'Real-time prices, sorting, search, and historical charts for the top 100 cryptocurrencies.',
-    tech: ['React', 'Vite', 'Chart.js', 'REST API'],
-    image: '/assets/crypto.png',
-    repo: 'https://github.com/notsprinkles/crypto-tracker', 
-    demo: 'https://crypto-price-tracker-react-neon.vercel.app/',             
-  },
-{
-  title: 'Neural Journal',
-  description:
-    'A mood-reactive journaling app with emotional tone detection, adaptive UI, and a parasocial AI guide.',
-  tech: ['React', 'Vite', 'Tone Analysis', 'AI'],
-  image: '/assets/neural-journal.png',  
-  repo: 'https://github.com/notsprinkles/neural-journal',
-  demo: 'https://neural-journal.vercel.app/',
-},
-  {
-  title: 'Keno App',
-  description:
-    'A crypto-enabled Keno game with wallet integration, ERC-20 token support, and real-time play.',
-  tech: ['React', 'Vite', 'Web3', 'Smart Contracts'],
-  image: '/assets/keno-app.png', 
-  repo: 'https://github.com/notsprinkles/keno-app',
-  demo: 'https://keno-app-eight.vercel.app/',
-},
-
-{
   title: 'Motivational Journal',
   description:
     'WriteLight is a full-stack app that helps users learn new vocabulary through daily reflection and action',
@@ -38,6 +10,15 @@ export const projects = [
 },
 
 {
+  title: 'Neural Journal',
+  description:
+    'A mood-reactive journaling app with emotional tone detection, adaptive UI, and a parasocial AI guide.',
+  tech: ['React', 'Vite', 'Tone Analysis', 'AI'],
+  image: '/assets/neural-journal.png',  
+  repo: 'https://github.com/notsprinkles/neural-journal',
+  demo: 'https://neural-journal.vercel.app/',
+},
+{
   title: 'Blog',
   description:
     'https://thelostgarden.vercel.app/',
@@ -46,7 +27,15 @@ export const projects = [
   repo: 'https://github.com/Plant-blog/Blog',
   demo: 'https://thelostgarden.vercel.app/',
 },
-
+  {
+  title: 'Keno App',
+  description:
+    'A crypto-enabled Keno game with wallet integration, ERC-20 token support, and real-time play.',
+  tech: ['React', 'Vite', 'Web3', 'Smart Contracts'],
+  image: '/assets/keno-app.png', 
+  repo: 'https://github.com/notsprinkles/keno-app',
+  demo: 'https://keno-app-eight.vercel.app/',
+},
 {
   title: 'Wallet Terminal',
   description:
@@ -65,5 +54,14 @@ export const projects = [
   repo: '"https://github.com/notsprinkles"',
   demo: '',
 },
+{
+    title: 'Crypto Price Tracker',
+    description:
+      'Real-time prices, sorting, search, and historical charts for the top 100 cryptocurrencies.',
+    tech: ['React', 'Vite', 'Chart.js', 'REST API'],
+    image: '/assets/crypto.png',
+    repo: 'https://github.com/notsprinkles/crypto-tracker', 
+    demo: 'https://crypto-price-tracker-react-neon.vercel.app/',             
+  },
 
 ];

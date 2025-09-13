@@ -1,0 +1,60 @@
+.projects-scroller {
+  margin: 3rem auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
+.scroller-title {
+  margin: 0.5rem 0 1rem;
+  color: var(--accent, #da26da);
+}
+
+.scroller-container {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 1rem;
+
+  /* show scrollbar nicely */
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent, #da26da) transparent;
+}
+
+.scroller-container::-webkit-scrollbar {
+  height: 8px;
+}
+.scroller-container::-webkit-scrollbar-thumb {
+  background: var(--accent, #da26da);
+  border-radius: 4px;
+}
+.scroller-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scroller-card {
+  flex: 0 0 calc(33.333% - 1rem); /* show 3 at a time */
+  min-width: 300px;               /* ensures decent size */
+  background: var(--card, #1e1e1e);
+  border: 1px solid var(--border, #333);
+  border-radius: 12px;
+  padding: 1rem;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.scroller-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #333;
+  object-fit: cover;
+}
+
+.scroller-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: auto;
+}

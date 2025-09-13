@@ -1,0 +1,31 @@
+.projects-carousel {
+  margin: 3rem auto;
+  max-width: 1000px;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.carousel-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.carousel-img {
+  max-width: 100%;
+  border-radius: 10px;
+  border: 1px solid #333;
+  background: #111;
+}
+
+.carousel-content {
+  max-width: 700px;
+}
+
+.carousel-actions {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}

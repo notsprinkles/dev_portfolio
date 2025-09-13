@@ -56,5 +56,14 @@ export const projects = [
   repo: 'https://github.com/notsprinkles/Wallet-Terminal',
   demo: 'https://wallet-terminal.vercel.app/',
 },
+{
+  title: 'Whisper Crawler',
+  description:
+    'A Node + Puppeteer scanner that detects ARIA “whisper traps” (invisible announcements) and risky roles. Exports JSON/Markdown reports to help teams fix accessibility regressions fast.',
+  tech: ['React', 'Vite', 'Web3', 'Crypto'],
+  image: '/assets/whisper-crawler.png',  
+  repo: '"https://github.com/notsprinkles"',
+  demo: '',
+},
 
 ];

@@ -15,10 +15,7 @@ function Hero() {
         I build accessible, performant web apps in React. Dark-mode lover. Data-driven and detail-obsessed.
       </p>
 
-      <div className="hero-cta">
-        <a className="btn primary" href="/#projects">See Projects</a>
-        <a className="btn" href="/resume" aria-label="View resume">View Resume</a>
-      </div>
+      
 
       <SocialBar />
     </section>

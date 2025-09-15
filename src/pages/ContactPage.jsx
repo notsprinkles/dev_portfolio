@@ -26,7 +26,6 @@ export default function ContactPage() {
       </header>
 
       <div className="contact-grid">
-        {/* Left: direct contact options */}
         <aside className="contact-cards">
           <article className="c-card">
             <h3>Email</h3>

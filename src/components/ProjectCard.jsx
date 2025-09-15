@@ -1,4 +1,5 @@
 import '../styles/ProjectCard.css';
+import OutboundLink from './OutboundLink.jsx';
 
 function ProjectCard({ title, description, tech = [], image, repo, demo }) {
   return (
@@ -48,6 +49,16 @@ function ProjectCard({ title, description, tech = [], image, repo, demo }) {
             </a>
           )}
         </div>
+        <div className="actions">
+  <OutboundLink href={repo} label={`${title}_repo`} target="_blank" rel="noopener noreferrer" className="btn">
+    Source ↗
+  </OutboundLink>
+  {demo && (
+    <OutboundLink href={demo} label={`${title}_demo`} target="_blank" rel="noopener noreferrer" className="btn primary">
+      Live Demo ↗
+    </OutboundLink>
+  )}
+</div>
       </div>
     </article>
   );

@@ -14,3 +14,16 @@
   backdrop-filter: blur(6px);
 }
 .backtop:hover { background: rgba(218, 38, 218, 0.12); }
+
+.honeypot {
+  position: absolute;
+  left: -9999px;   
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  visibility: hidden; 
+
+.honeypot label,
+.honeypot input {
+  display: none; 
+}}

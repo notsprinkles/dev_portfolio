@@ -14,10 +14,6 @@ function Hero() {
       <p className="hero-sub">
         I build accessible, performant web apps in React. Dark-mode lover. Data-driven and detail-obsessed.
       </p>
-
-      
-
-      
     </section>
   );
 }

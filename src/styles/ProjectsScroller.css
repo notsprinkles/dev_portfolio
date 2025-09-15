@@ -16,7 +16,6 @@
   scroll-snap-type: x mandatory;
   padding-bottom: 1rem;
 
-  /* show scrollbar nicely */
   scrollbar-width: thin;
   scrollbar-color: var(--accent, #da26da) transparent;
 }
@@ -33,8 +32,8 @@
 }
 
 .scroller-card {
-  flex: 0 0 calc(33.333% - 1rem); /* show 3 at a time */
-  min-width: 300px;               /* ensures decent size */
+  flex: 0 0 calc(33.333% - 1rem); 
+  min-width: 300px;               
   background: var(--card, #1e1e1e);
   border: 1px solid var(--border, #333);
   border-radius: 12px;

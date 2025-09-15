@@ -4,7 +4,6 @@ import "../styles/ProjectsScroller.css";
 export default function ProjectsScroller() {
   return (
     <section className="projects-scroller" aria-label="Featured Projects">
-      <span className="badge">Featured Projects</span>
       <h2 className="scroller-title">Projects</h2>
 
       <div className="scroller-container">

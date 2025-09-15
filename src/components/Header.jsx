@@ -1,22 +1,30 @@
 import { NavLink } from 'react-router-dom';
-import ThemeToggle from './ThemeToggle.jsx';
+import ThemeToggle from './ThemeToggle';
 import '../styles/Header.css';
 
 function Header() {
   return (
-    <header className="header">
-      <div className="logo">Dev Portfolio</div>
+    <header className="site-header">
+      <div className="header-content">
+        <h1 className="logo">
+          <NavLink to="/" className="logo-link">Dev Portfolio</NavLink>
+        </h1>
 
-      <nav className="nav">
-        <NavLink to="/" end className={({isActive}) => isActive ? 'active' : ''}>Home</NavLink>
-        <NavLink to="/about" className={({isActive}) => isActive ? 'active' : ''}>About</NavLink>
-        <NavLink to="/projects" className={({isActive}) => isActive ? 'active' : ''}>Projects</NavLink>
-        <NavLink to="/contact" className={({isActive}) => isActive ? 'active' : ''}>Contact</NavLink>
-        <NavLink to="/resume" className={({isActive}) => isActive ? 'active' : ''}>Resume</NavLink>
-      </nav>
+        <nav className="nav">
+          <ul className="nav-list">
+            <li><NavLink to="/" end>Home</NavLink></li>
+            <li><NavLink to="/about">About</NavLink></li>
+            <li><NavLink to="/projects">Projects</NavLink></li>
+            <li><NavLink to="/resume">Resume</NavLink></li>
+            <li><NavLink to="/contact">Contact</NavLink></li>
+            <li><a href="https://github.com/notsprinkles" target="_blank" rel="noreferrer">GitHub</a></li>
+          </ul>
+        </nav>
 
-      <ThemeToggle />
+        <ThemeToggle />
+      </div>
     </header>
   );
 }
+
 export default Header;

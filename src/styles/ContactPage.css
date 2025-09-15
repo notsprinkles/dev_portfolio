@@ -23,7 +23,6 @@
   .contact-grid { grid-template-columns: 1fr; }
 }
 
-/* Side cards */
 .contact-cards {
   display: grid;
   gap: .9rem;
@@ -43,7 +42,6 @@
 .c-card .link:hover { text-decoration: underline; }
 .btn.small { font-size: .9rem; padding: .4rem .6rem; }
 
-/* Form */
 .contact-form-wrap {
   border: 1px solid var(--border, #2c2c2c);
   border-radius: var(--radius, 12px);
@@ -106,7 +104,6 @@
   flex-wrap: wrap;
 }
 
-/* Base button */
 .btn {
   display: inline-block;
   border: 1px solid var(--border, #444);
@@ -120,7 +117,6 @@
   color: inherit;
 }
 
-/* Accent button */
 .btn.primary {
   border-color: var(--accent, #da26da);
   color: var(--accent, #da26da);
@@ -132,15 +128,12 @@
   color: #fff;
 }
 
-/* Hover effect for neutral buttons */
 .btn:hover {
   border-color: var(--accent, #da26da);
   color: var(--accent, #da26da);
 }
 
-/* ---- Theme-aware background fixes ---- */
 
-/* Dark mode */
 html.dark .btn {
   background: rgba(255,255,255,0.05);
   color: #f0f0f0;
@@ -149,7 +142,6 @@ html.dark .btn:hover {
   background: rgba(255,255,255,0.12);
 }
 
-/* Light mode */
 html.light .btn {
   background: #f8f9fb;
   color: #1a1a1a;

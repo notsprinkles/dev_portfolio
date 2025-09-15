@@ -6,7 +6,6 @@ import Reveal from '../components/Reveal';
 function AboutPage() {
   return (
     <div className="about-page">
-      {/* Header */}
       <Reveal as="header">
         <h1>About Me</h1>
         <p className="lede">
@@ -16,7 +15,6 @@ function AboutPage() {
         </p>
       </Reveal>
 
-      {/* Bio card */}
       <Reveal delay={80}>
         <section className="bio-card">
           <img
@@ -49,7 +47,6 @@ function AboutPage() {
         </section>
       </Reveal>
 
-      {/* Quick stats */}
       <Reveal delay={120}>
         <section className="stats">
           <div className="stat">
@@ -71,7 +68,6 @@ function AboutPage() {
         </section>
       </Reveal>
 
-      {/* Tooling badges */}
       <Reveal delay={160}>
         <section className="tooling">
           <h2>Toolbox</h2>
@@ -85,7 +81,6 @@ function AboutPage() {
         </section>
       </Reveal>
 
-      {/* Timeline / Experience */}
       <Reveal delay={200}>
         <section className="timeline">
           <h2>Experience & Projects</h2>
@@ -117,7 +112,6 @@ function AboutPage() {
         </section>
       </Reveal>
 
-      {/* Certifications */}
       <Reveal delay={240}>
         <section className="certs">
           <h2>Certifications</h2>
@@ -127,7 +121,6 @@ function AboutPage() {
         </section>
       </Reveal>
 
-      {/* CTA */}
       <Reveal delay={280}>
         <section className="about-cta">
           <h2>Let’s Build Something People Love</h2>

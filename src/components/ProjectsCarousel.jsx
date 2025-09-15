@@ -16,7 +16,7 @@ export default function ProjectsCarousel() {
 
   return (
     <section className="projects-carousel" aria-label="Featured Projects">
-      <span className="badge">Featured Projects</span>
+     
       <Slider {...settings}>
         {projects.map((proj, i) => (
           <div key={i} className="carousel-slide">

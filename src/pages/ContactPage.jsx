@@ -26,26 +26,44 @@ export default function ContactPage() {
       </header>
 
       <div className="contact-grid">
-        <aside className="contact-cards">
-          <article className="c-card">
+        <aside className="contact-info">
+          <article className="info-card">
             <h3>Email</h3>
-            <p><a className="link" href="j.laraia@icloud.com">j.laraia@icloud.com</a></p>
-            <button className="btn small" onClick={copyEmail} type="button">Copy</button>
+            <p>
+              <a className="link" href="mailto:j.laraia@icloud.com">
+                j.laraia@icloud.com
+              </a>
+            </p>
+            <button className="btn-small" onClick={copyEmail} type="button">
+              Copy
+            </button>
           </article>
 
-          <article className="c-card">
+          <article className="info-card">
             <h3>GitHub</h3>
             <p>See my code and contributions.</p>
-            <a className="btn" href="https://github.com/notsprinkles" target="_blank" rel="noopener noreferrer">Open GitHub ↗</a>
+            <a
+              className="btn"
+              href="https://github.com/notsprinkles"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Open GitHub ↗
+            </a>
           </article>
 
-          <article className="c-card">
+          <article className="info-card">
             <h3>LinkedIn</h3>
             <p>Let’s connect professionally.</p>
-            <a className="btn" href="https://www.linkedin.com/in/janeen-laraia-89a11b358/" target="_blank" rel="noopener noreferrer">Open LinkedIn ↗</a>
+            <a
+              className="btn"
+              href="https://www.linkedin.com/in/janeen-laraia-89a11b358/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Open LinkedIn ↗
+            </a>
           </article>
-
-          
         </aside>
 
         <div className="contact-form-wrap">
@@ -55,3 +73,4 @@ export default function ContactPage() {
     </section>
   );
 }
+

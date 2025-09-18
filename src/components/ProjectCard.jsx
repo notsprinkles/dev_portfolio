@@ -27,7 +27,28 @@ function ProjectCard({ title, description, tech = [], image, repo, demo }) {
           </ul>
         )}
 
-        
+        <div className="project-links">
+          {repo && (
+            <a
+              className="project-link"
+              href={repo}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Source ↗
+            </a>
+          )}
+          {demo && (
+            <a
+              className="project-link-primary"
+              href={demo}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Demo ↗
+            </a>
+          )}
+        </div>
         <div className="actions">
   <OutboundLink href={repo} label={`${title}_repo`} target="_blank" rel="noopener noreferrer" className="btn">
     Source ↗

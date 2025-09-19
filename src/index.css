@@ -47,3 +47,19 @@ html { scroll-behavior: smooth; }
 }
 
 .container { max-width: 1100px; margin-inline: auto; padding: 0 1rem; }
+
+html.dark {
+  --color-bg: #121212;       
+  --color-text: #ffffff;
+  --color-text-muted: #bbbbbb;
+  --color-accent: #da26da;
+  --color-border: #2c2c2c;
+}
+
+html.light {
+  --color-bg: #f6f7fb;       
+  --color-text: #1a1a1a;
+  --color-text-muted: #555555;
+  --color-accent: #da26da;
+  --color-border: #d0d0d0;
+}

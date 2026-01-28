@@ -9,6 +9,16 @@ export const projects = [
   demo: '',
 },
 
+  {
+  title: 'Human Attack Surface',
+  description:
+    'A research-driven security project exploring how trust, social pressure, ambiguity and authority cues create real-world security risk. ',
+  tech: ['HTML', "CSS", 'Human Factors Research', 'Social Engineering Analysis']
+  image: '/assets/has.png',  
+  repo: 'https://github.com/notsprinkles/notsprinkles.github.io',
+  demo: 'https://notsprinkles.github.io/',
+},
+
 {
   title: 'Neural Journal',
   description:
